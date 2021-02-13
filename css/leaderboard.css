@@ -1,0 +1,26 @@
+table {
+    margin-top: 20px;
+}
+
+.leaderColumn {
+    border-bottom: 2px solid rgba(0,0,0,.3);
+    margin-top: 20px;
+}
+.leaderColumn td {
+    background-color: rgb(250, 243, 243);
+    width: 20%;
+}
+th {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.posicion {
+    text-align: right;
+}
+
+.result {
+    text-align: center;
+}
+
+

@@ -1,0 +1,55 @@
+
+
+body {
+  height: 100%;
+  background-image: url('.././img/logoTransparente.png');
+  background-color: rgba(255,255,255,0.1);
+  background-size: auto;
+    background-size: 20%;
+
+}
+
+.verdeazul {
+    background: linear-gradient(to left, lightgreen , lightblue);
+  }
+
+  .azulverde {
+    background: linear-gradient(to left, lightblue , lightgreen);
+  }
+
+  .centrar {
+      text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "izquierda izquierda izquierda derecha"
+      "izquierda izquierda izquierda derecha"
+      "izquierda izquierda izquierda derecha";
+
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    
+    
+    
+  }
+
+  .principio { grid-area: principio; margin-top: 20px;
+    margin-left: 20px; margin-bottom: 5%}
+  .inicioSesion {
+    grid-area: derecha;
+    margin-top: 20px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    min-height: 100%;
+  }
+  .izquierda {
+    grid-area: izquierda;
+    margin-right: 2%;
+    }
+
+

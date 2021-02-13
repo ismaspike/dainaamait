@@ -1,0 +1,16 @@
+.ficha2 {
+    opacity: 60%;
+}
+
+.ficha {
+    opacity: 90%;
+}
+
+.X {
+    background-color: lightblue;
+}
+
+.O {
+    background-color: lightgreen;
+}
+

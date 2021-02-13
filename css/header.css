@@ -1,0 +1,102 @@
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background: linear-gradient(to left, lightgreen , lightblue);
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the header links */
+.header a {
+  
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: rgba(0,0,0,0);
+  color: black;
+}
+
+/* Gray Scale */
+#imagenLogo {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#imagenLogo:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+/*#imagenLogo:hover {
+  background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+  background-color: rgba(126, 94, 245, 0.13);
+  color: black;
+}*/
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
+/*WEBKITS*/
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+
